@@ -84,7 +84,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    kurukshetra , Haryana, India
+                    Kurukshetra, Haryana, India
                   </a>
                 </div>
               </div>
@@ -122,7 +122,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Name
+                  Full Name
                 </label>
                 <input
                   type="text"
@@ -130,7 +130,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Jhon"
+                  placeholder="John"
                 />
               </div>
 
@@ -140,7 +140,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Email
+                  Email Address
                 </label>
                 <input
                   type="email"
@@ -158,7 +158,7 @@ export const ContactSection = () => {
                   className="block text-sm font-medium mb-2"
                 >
                   {" "}
-                  Your Message
+                  Message
                 </label>
                 <textarea
                   id="message"
